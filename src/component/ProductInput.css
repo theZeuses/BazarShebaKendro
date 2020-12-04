@@ -1,0 +1,17 @@
+.maindiv{
+    margin-top: 5%;
+}
+
+.custom__col{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.page__header{
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+.file-upload{
+    display: none;
+}
