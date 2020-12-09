@@ -1,0 +1,48 @@
+.inventoryDashboard{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inventoryDashboard__report{
+    display: flex;
+}
+
+.inventoryDashboard__report__farmerNumber{
+    width: 30%;
+    padding: 2%;
+    background-color: green;
+    margin: 2px;
+}
+
+.inventoryDashboard__report__farmerNumber__number {
+    text-align: right;
+}
+
+.inventoryDashboard__report__productNumber{
+    width: 35%;
+    padding: 2%;
+    background-color: green;
+    margin: 2px;
+}
+
+.inventoryDashboard__report__productNumber__number {
+    text-align: right;
+}
+
+.inventoryDashboard__report__summary{
+    width: 35%;
+    padding: 2%;
+    background-color: green;
+    margin: 2px;
+}
+
+.inventoryDashboard__report__summary__number {
+    text-align: right;
+}
+
+.inventoryDashboard__farmerList{
+    background-color: red;
+    z-index: 1;
+}
+
