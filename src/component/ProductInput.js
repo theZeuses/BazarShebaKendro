@@ -50,6 +50,20 @@ function ProductInput() {
                     </div>
                 </div>
                 <div className="row">
+                    <div className="col-sm-3"> 
+                        <div className="text-right">
+                            <label><h4>Attach a Photo:</h4></label>
+                        </div>                                                                            
+                    </div>
+                    <div className="col-sm-5">
+                        <div className="text-center">
+                            <img src={preview} className="avatar img-circle img-thumbnail" alt="avatar" />
+                            <input type="file" name='image' className="text-center center-block file-upload" ref={hiddenFileInput} onChange={onSelectFile}></input>
+                            <input type="button" value="Browse..." id="selectFile" className="text-center center-block" onClick={handleClick} />
+                        </div>                                  
+                    </div>
+                </div>
+                <div className="row">
                     <div className="col-sm-12"> 
                         <Form className="form" method="post" enctype="multipart/form-data">
                             <div className="row">
@@ -203,21 +217,6 @@ function ProductInput() {
                                     </Form.Group>
                                 </div>
                             </div> 
-
-                            <div className="row">
-                                <div className="col-sm-3"> 
-                                    <div className="text-right">
-                                        <label><h4>Upload Photo:</h4></label>
-                                    </div>                                                                            
-                                </div>
-                                <div className="col-sm-3">
-                                    <div className="text-center">
-                                        <img src={preview} className="avatar img-circle img-thumbnail" alt="avatar" />
-                                        <input type="file" name='image' className="text-center center-block file-upload" ref={hiddenFileInput} onChange={onSelectFile}></input>
-                                        <input type="button" value="Browse..." id="selectFile" className="text-center center-block" onClick={handleClick} />
-                                    </div>                                  
-                                </div>
-                            </div>
                             <br></br>
 
                             <div className="form-group">
